@@ -1,0 +1,231 @@
+,
+Physics,Golden Answers
+"In a Young's Double Slit Experiment (YDSE), the slits are separated by 0.45Â mm and the screen is placed 2.4Â m away.
+The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm.
+If the entire experimental setup is immersed in a transparent liquid of refractive index Î¼=1.7, what will be the new fringe width?","Ans - 0.176...
+D = 2.4 m  - this info not required
+d = 0.45 mm  - this info is not even required
+4*beta = 1.2 cm
+refractive index = 1.7
+new beta = ((1.2/4)))/1.7 = 0.176... cm "
+"Light of frequency 7.21Ã10^14 Hz is incident on a metal surface.
+Electrons are ejected with a maximum speed of 6.0Ã10^5 m/s.
+Calculate the work function of the metal in electron volts (eV).
+(Given: h=6.63Ã10â34 Js, mass of an electron = 9.1Ã10â31 kg, 1 eV=1.6Ã10â19 J).","Ans - 1.96 eV
+
+KE = 1/2 mv^2
+v = 6*10^5 m/s
+total energy = h*freq
+freq = 7.21*10^14 Hz
+total energy - KE = work function
+by plugging in the values, work function in J -
+to convert to eV - divide by 1.6 *10^-19
+"
+"There are 27 drops charged to a potential 90 volts each. These drops combine to form a bigger drop.
+ Calculate electric potential at the surface of bigger drop.",810 volts
+"A parallel plate capacitor is connected to a battery, and then the battery is disconnected. A dielectric slab is then inserted. How
+does the electric field change?","The trick lies in the sequence: connected (gets charged)
+->disconnected (charge is conserved) -> dielectric inserted.
+Q remains constant, but V decreases (because
+V=V/Kappa), so E decreases (because E=V/d). If the
+battery was still connected, V would be constant and Q
+would increase."
+"Assertion : A cassegrain telescope make use of total internal reflection.
+Reason : Light undergoes successive total internal reflections as it moves through the telescope.
+Are the statements true? If so, does the reason explain the assertion?",Both are false
+CS,
+"def process_data(mapping, sequence):
+    score = 0
+    modifier = 1
+    for num in sequence:
+        if num in mapping:
+            operation = mapping[num]
+            if operation == 'add':
+                score += (num + modifier)
+            elif operation == 'sub':
+                score -= (num - modifier)
+            elif operation == 'mul':
+                # This operation only changes the modifier for subsequent steps
+                modifier = num
+        else:
+            # If the number is not in the map, penalize the score
+            # and reset the modifier.
+            score -= modifier
+            modifier = 1
+
+op_map = {
+    3: 'add',
+    5: 'mul',
+    2: 'sub',
+    7: 'add'
+}
+num_seq = [3, 5, 4, 2, 7]
+
+print(process_data(op_map, num_seq))",None
+"Develop the most efficient python code to execute this output -
+A
+bc
+DEF
+ghij
+KLMNO... and so on based on the input number of rows.","Check which gives best - there should be some %2"
+"Which of these about a dictionary is false?
+a) The values of a dictionary can be accessed through indices.
+b) Dictionaries are ordered.
+c) The keys of a dictionary can be accessed through values.
+d) Dictionaries are mutable.",a) and c)
+"Table: Chips
+brandname        flavour        price        quantity
+Lays                   Salted         20              50
+Pringles              Original      150            10
+Lays                    Nacho        50              25
+Haldiram             Masala       10              70
+Haldiram             BBQ           30              40
+Uncle Eddies       BBQ           45             30
+
+From this table, write the queries to:
+a) Extract all the unique brand names quantity wise.
+b) Show the cardinality of this table.
+c) Increase the price of all the BBQ flavoured chips by 15%
+
+d) Also, what will be the cardinality and degree of the cartesian product of this table.","a)
+b)
+c)
+d)"
+Maths,
+Give an example of a standard function which is one-one and onto. ,signum function
+"Find the area of the region in the first quadrant enclosed by the x axis, line x = â3 y and the circle (x-9)^2 + (y-4)^2 = 4.",
+"Given the equation relating x and y:
+
+x+sin(y)=x^7y
+
+Find the derivative
+dx/dy",
+"Evaluate the indefinite integral:
+
+â« (x^2+1)/(x^3+1) dx",
+Chemistry,
+"A silver electrode is immersed in a 0.4(M)  AgNO3 solution at
+30 degree celcius. If AgNO3 dissociates almost completely in the solution, then determine the potential of the
+silver electrode.
+Given :
+Eâ(Ag+|Ag) = 0.80V",
+What is the name of the reaction for converting an alkyl nitrile to an aldehyde through a step up reaction?,Stephen's reaction
+"How does one synthesise an ether by using an alkyl halide and an alkoxide? Does this reaction yield a racemic
+mixture?
+Also, what happens when the same reaction is carried out at a temperature of 443 K? ","Williamson's ether synthesis
+SN2 - so no racemic mixture
+alkene formation due to elimination reaction"
+English,
+"Which of the following sentences is grammatically correct?
+ A) The flock of birds were flying south for the winter.
+B) Neither the teacher nor the students was aware of the schedule change.
+C) The data, which was collected over three years, suggest a clear trend.
+D) Each of the contestants is required to submit a video introduction.","D) Each of the contestants is required to submit
+ a video introduction."
+"Identify the primary literary device used in the sentence: ""The city's skyscrapers clawed at the stormy, thundering
+sky.""
+A) Simile
+B) Personification
+C) Imagery
+D) Hyperbole",Personification / Hyperbole
+"The politician's speech was full of platitudes, offering little substance. What is the best synonym for ""platitudes""
+in this context?
+A) Complex ideas
+B) Factual errors
+C) Meaningless clichÃ©s
+D) Controversial opinions",Meaningless cliches
+Provide a short but suitable example of a childhood story that represents the poetic device of an allegory.,"The hare and the tortoise.
+Allegory respresents an abstract message with a tangible
+story"
+"Extrapolate on the pretext of the poem ""Road Not Taken"" by Robert Frost on the basis of the situation of the
+world at the time it was written and the condition of the poet at that time","This poem was written during the time of the
+WW1. The poet, at that time, was at a crucial
+time of his life, where he was faced with two
+choices that could decide his future. In his case,
+he wrote this poem as an ode to a friend who had trouble
+making simple decisions. The poem reflects
+on their journey on making choices. In the first two stanzas
+of the poem, he describes two choices as two paths
+at a crossroad. He explains how he tries to look
+down as far as possible in both paths referring to
+his attempt to forsee his future. However he
+explains how this foresight is barred to only a
+specific point after which everything is a mystery.
+He also describes both paths, one of which is
+less trodden upon. This reflects in his life as writing
+(his current proffesion) was not a very popular
+choice taken up at that time. In the next two stanzas,
+he describes his life after he has made his decision
+to take the less popular path of writing. He seemed
+to know that after he made his decision, it would l
+ead onto other ways which would make it impossible
+to come back to this one. In the end, he accepts
+this and makes his way down his own path. He
+ends the poem with a slightly ambiguous note by
+saying ""I shall be telling this with a sigh"".This sigh
+may symbolise many emotions such as contentment,
+regret, curiousity,etc. This interpretation has been
+left to the reader to figure out. To wrap up, the poet
+says that the choice was a life - changing one that
+made all the difference to him."
+Knowledge Seeking,
+5.9 - 5.11,0.79
+which city has the airport code MAS,"Momote Airport, Los Negros Island, Papua New Guinea"
+who has hit the maximum number of 6s in T20Is?,Rohit Sharma - 205
+,
+,
+Video Generation,
+"Give me a video that starts with a close-up of a single raindrop hitting a leaf on the side of a road, then quickly
+transitions to a wide shot of the entire street at rush hour, very busy with cars and people. The mood should
+go from calm to
+chaotic.",
+"Create a video showing a small boy facing his angry parents. I want close-up shots of the boy's face
+showing fear, with the shadows of the tall parents, then a quick shot of the parents' hands clenching. To end
+pan to the parents' angry face suddenly shifting to a pleasant emotion. The background should go from a tense
+orangeish red to a calm blue. The lighting should be dramatic, with shadows.",
+"Make an animation of someone using a flipbook. It should show small stickman learning how to shoot an arrow.
+Show scenes of the man failing multiple times and finally hitting his mark. Remember the whole movie should
+be shown thourgh a flipbook animation.",
+"Make a video for my science project about the water cycle. I need a sequence showing water
+evaporating from an ocean, forming clouds, then precipitating as rain over mountains, and finally flowing back
+into a river that leads to the ocean. Keep it natural and semi-realistic.",
+"Make a video that could serve as a trailer for an upcoming interschool tournament. The tournament's overall
+co-curricular theme must be well shown. It should start of with a close-up shot of a kid's closed eyes while
+sleeping. Suddenly the kid's eyes should fly open at the sound of an alarm. Pan to the phone on a bed-side
+table which should display a notification displaying"" Nexus D-Day!"". There should be a clicking motion on the
+notification which should play a video creatively displaying the tournament's name(Nexus) and the
+date (12 September 2025). Create the video playing on the phone with a scene for music, sports and acting and
+with a slide saying' and many more'. The video after clicking the notification should have a neonish vibe. End the
+ video of with a scene that display ""Do not miss it!"" and the ending scene with a save the date with all the details
+(name and date) mentioned above.",
+Image Generation,
+"Create an image for my English project cover. I need a very detailed, realistic image of a lone, ancient
+lighthouse standing on a rocky cliff during a stormy night. Make sure the light beam is cutting through the dark
+clouds. The style should be 'cinematic and mysterious'.",
+"Generate an image of my school mascot, a jumping horse with a maroon background. Put him in front of our school building,
+which has red bricks and a arch at the gate. It should have a sign saying 'National Public School'. The overall style should be semi-
+realistic.",
+"I need an abstract image representing 'confusion in anger.' Use swirling colors, maybe some overlapping
+shapes.",
+"Generate a realistic image of an astronaut playing violin on the moon, with Earth visible in the background.
+Make the moon's surface look dusty/sandy and cratered.",
+"Make me an image for my history presentation about ancient Rome. I want to show a busy market scene in a
+town square area, with lots of people, stalls selling goods like pottery and fruit, and some Roman architecture
+in the background. There should be a grand chariot going through the streets and people splitting to make way
+for it. Make it look like a historical painting, not a modern photo.",
+Music Understanding,
+"https://drive.google.com/file/d/1AxlTf0-PiDoysiQUZgBI_9T1YXyYQrsK/view?usp=sharing - listen to this 10
+second audio clip and identify the instrument played in it.",Cello
+"https://drive.google.com/file/d/1xNYLRluOkadvFyu9wX3UPHVWi2iShLED/view?usp=sharing - listen to the
+10 second audio clip and identify the ragam based on India Classical Music.",Kharaharapriya
+Which two talas in Indian Carnatic Classical music have 10 aksharams in the alankaram sequence.,Matya talam and Jhampa talam
+Are percussion instruments pitched or not?,Yes
+How is silence incorporated into a musical arrangement and how does it effect the vibe of the piece.,"More silence, calmer vibe. Less silence, upbeat
+or intense"
+,
+Summarisation,
+https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2000.1385 - read this article and write a summary covering all the main points,
+ncert cs,
+ncert phy,
+https://online.fliphtml5.com/qtevf/vuwz/#p=6 - go through this and write a summary on the book,
+https://dn790007.ca.archive.org/0/items/cu31924013243963/cu31924013243963.pdf - refer to this and create a summary on this book,

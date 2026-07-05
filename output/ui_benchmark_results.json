@@ -1,0 +1,30 @@
+{
+  "e39e8af0e0f5085f": {
+    "question": "In a Young's Double Slit Experiment (YDSE), the slits are separated by 0.45 mm and the screen is placed 2.4 m away.\nThe distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm.\nIf the entire experimental setup is immersed in a transparent liquid of refractive index μ=1.7, what will be the new fringe width?",
+    "ChatGPT": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Claude": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Gemini": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Grok": "Automation Error: Locator.fill: Target page, context or browser has been closed"
+  },
+  "8dbf5df36a67d83c": {
+    "question": "Light of frequency 7.21×10^14 Hz is incident on a metal surface.\nElectrons are ejected with a maximum speed of 6.0×10^5 m/s.\nCalculate the work function of the metal in electron volts (eV).\n(Given: h=6.63×10−34 Js, mass of an electron = 9.1×10−31 kg, 1 eV=1.6×10−19 J).",
+    "ChatGPT": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Claude": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Gemini": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Grok": "Automation Error: Locator.fill: Target page, context or browser has been closed"
+  },
+  "e9187133ef9d6f03": {
+    "question": "There are 27 drops charged to a potential 90 volts each. These drops combine to form a bigger drop.\nCalculate electric potential at the surface of bigger drop.",
+    "ChatGPT": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Claude": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Gemini": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Grok": "Automation Error: Locator.fill: Target page, context or browser has been closed"
+  },
+  "039d3c43d172c7ce": {
+    "question": "A parallel plate capacitor is connected to a battery, and then the battery is disconnected. A dielectric slab is then inserted. How does the electric field change?",
+    "ChatGPT": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Claude": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Gemini": "Automation Error: Locator.fill: Target page, context or browser has been closed",
+    "Grok": "Automation Error: Locator.fill: Target page, context or browser has been closed"
+  }
+}

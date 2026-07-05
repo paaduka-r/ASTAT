@@ -1,0 +1,356 @@
+{
+    "e39e8af0e0f5085f": {
+        "subject": "Physics",
+        "question": "In a Young's Double Slit Experiment (YDSE), the slits are separated by 0.45 mm and the screen is placed 2.4 m away.\nThe distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm.\nIf the entire experimental setup is immersed in a transparent liquid of refractive index \u03bc=1.7, what will be the new fringe width?",
+        "question_type": "calculation",
+        "answer": "Ans - 0.176...\nD = 2.4 m  - this info not required\nd = 0.45 mm  - this info is not even required\n4*beta = 1.2 cm\nrefractive index = 1.7\nnew beta = ((1.2/4)))/1.7 = 0.176... cm",
+        "notes": "",
+        "status": "filled"
+    },
+    "8dbf5df36a67d83c": {
+        "subject": "Physics",
+        "question": "Light of frequency 7.21\u00d710^14 Hz is incident on a metal surface.\nElectrons are ejected with a maximum speed of 6.0\u00d710^5 m/s.\nCalculate the work function of the metal in electron volts (eV).\n(Given: h=6.63\u00d710\u221234 Js, mass of an electron = 9.1\u00d710\u221231 kg, 1 eV=1.6\u00d710\u221219 J).",
+        "question_type": "calculation",
+        "answer": "Ans - 1.96 eV\n\nKE = 1/2 mv^2\nv = 6*10^5 m/s\ntotal energy = h*freq\nfreq = 7.21*10^14 Hz\ntotal energy - KE = work function\nby plugging in the values, work function in J -\nto convert to eV - divide by 1.6 *10^-19",
+        "notes": "",
+        "status": "filled"
+    },
+    "e9187133ef9d6f03": {
+        "subject": "Physics",
+        "question": "There are 27 drops charged to a potential 90 volts each. These drops combine to form a bigger drop.\nCalculate electric potential at the surface of bigger drop.",
+        "question_type": "calculation",
+        "answer": "810 volts",
+        "notes": "",
+        "status": "filled"
+    },
+    "039d3c43d172c7ce": {
+        "subject": "Physics",
+        "question": "A parallel plate capacitor is connected to a battery, and then the battery is disconnected. A dielectric slab is then inserted. How does the electric field change?",
+        "question_type": "calculation",
+        "answer": "The trick lies in the sequence: connected (gets charged)\n->disconnected (charge is conserved) -> dielectric inserted.\nQ remains constant, but V decreases (because\nV=V/Kappa), so E decreases (because E=V/d). If the\nbattery was still connected, V would be constant and Q\nwould increase.",
+        "notes": "",
+        "status": "filled"
+    },
+    "7e37bc85399118fc": {
+        "subject": "Physics",
+        "question": "Assertion: A cassegrain telescope makes use of total internal reflection.\nReason: Light undergoes successive total internal reflections as it moves through the telescope.\nAre the statements true? If so, does the reason explain the assertion?",
+        "question_type": "calculation",
+        "answer": "Both are false",
+        "notes": "",
+        "status": "filled"
+    },
+    "4584c1b851b96df9": {
+        "subject": "CS",
+        "question": "def process_data(mapping, sequence):\n    score = 0\n    modifier = 1\n    for num in sequence:\n        if num in mapping:\n            operation = mapping[num]\n            if operation == 'add':\n                score += (num + modifier)\n            elif operation == 'sub':\n                score -= (num - modifier)\n            elif operation == 'mul':\n                # This operation only changes the modifier for subsequent steps\n                modifier = num\n        else:\n            # If the number is not in the map, penalize the score\n            # and reset the modifier.\n            score -= modifier\n            modifier = 1\n\nop_map = {\n    3: 'add',\n    5: 'mul',\n    2: 'sub',\n    7: 'add'\n}\nnum_seq = [3, 5, 4, 2, 7]\n\nprint(process_data(op_map, num_seq))",
+        "question_type": "analytical",
+        "answer": "None",
+        "notes": "",
+        "status": "filled"
+    },
+    "8f6512b3842385d9": {
+        "subject": "CS",
+        "question": "Develop a python code to execute this output -\nA\nbc\nDEF\nghij\nKLMNO... and so on based on the input number of rows.",
+        "question_type": "analytical",
+        "answer": "Check which gives best - there should be some %2",
+        "notes": "",
+        "status": "filled"
+    },
+    "9861e82cfdf199cc": {
+        "subject": "CS",
+        "question": "Which of these about a dictionary is false?\na) The values of a dictionary can be accessed through indices.\nb) Dictionaries are ordered.\nc) The keys of a dictionary can be accessed through values.\nd) Dictionaries are mutable.",
+        "question_type": "analytical",
+        "answer": "a) and c)",
+        "notes": "",
+        "status": "filled"
+    },
+    "2f6fca8f5b6cd001": {
+        "subject": "CS",
+        "question": "Table: Chips\nbrandname        flavour        price        quantity\nLays                   Salted         20              50\nPringles              Original      150            10\nLays                    Nacho        50              25\nHaldiram             Masala       10              70\nHaldiram             BBQ           30              40\nUncle Eddies       BBQ           45             30\n\nFrom this table, write the queries to:\na) Extract all the unique brand names quantity wise.\nb) Show the cardinality of this table.\nc) Increase the price of all the BBQ flavoured chips by 15%\nd) Also, what will be the cardinality and degree of the cartesian product of this table.",
+        "question_type": "analytical",
+        "answer": "a)\nb)\nc)\nd)",
+        "notes": "",
+        "status": "filled"
+    },
+    "d41b38841973cdf3": {
+        "subject": "Maths",
+        "question": "Give an example of a standard function which is one-one and onto.",
+        "question_type": "calculation",
+        "answer": "signum function",
+        "notes": "",
+        "status": "filled"
+    },
+    "d31396f3c50816db": {
+        "subject": "Maths",
+        "question": "Find the area of the region in the first quadrant enclosed by the x axis, line x = \u221a3 y and the circle (x-9)^2 + (y-4)^2 = 4.",
+        "question_type": "calculation",
+        "answer": "",
+        "notes": "",
+        "status": "needs_fill"
+    },
+    "9b060f5378e7cccc": {
+        "subject": "Maths",
+        "question": "Given the equation relating x and y:\n\nx+sin(y)=x^7y\n\nFind the derivative dx/dy",
+        "question_type": "calculation",
+        "answer": "",
+        "notes": "",
+        "status": "needs_fill"
+    },
+    "4664558171b5457d": {
+        "subject": "Maths",
+        "question": "Evaluate the indefinite integral:\n\n\u222b (x^2+1)/(x^3+1) dx",
+        "question_type": "calculation",
+        "answer": "\\(\\frac{2}{3}\\cdot \\ln \\left(\\left|x+1\\right|\\right)+\\frac{1}{6}\\cdot \\ln \\left(\\left|x^{2}-x+1\\right|\\right)+\\frac{\\sqrt{3}\\textrm{atan}\\left(\\frac{2\\sqrt{3}x-\\sqrt{3}}{3}\\right)}{3}+C,C\\in \\mathbb{R}\\)",
+        "notes": "",
+        "status": "filled"
+    },
+    "c4ca4b3485c776ab": {
+        "subject": "Chemistry",
+        "question": "A silver electrode is immersed in a 0.4(M) AgNO3 solution at 30 degree Celsius. If AgNO3 dissociates almost completely in the solution, then determine the potential of the silver electrode.\nGiven:\nE\u00b0(Ag+|Ag) = 0.80V",
+        "question_type": "calculation",
+        "answer": "",
+        "notes": "",
+        "status": "needs_fill"
+    },
+    "5494e3a93a9c7623": {
+        "subject": "Chemistry",
+        "question": "What is the name of the reaction for converting an alkyl nitrile to an aldehyde through a step up reaction?",
+        "question_type": "calculation",
+        "answer": "Stephen's reaction",
+        "notes": "",
+        "status": "filled"
+    },
+    "00f27831ea616f7f": {
+        "subject": "Chemistry",
+        "question": "How does one synthesise an ether by using an alkyl halide and an alkoxide? Does this reaction yield a racemic mixture?\nAlso, what happens when the same reaction is carried out at a temperature of 443 K?",
+        "question_type": "calculation",
+        "answer": "Williamson's ether synthesis\nSN2 - so no racemic mixture\nalkene formation due to elimination reaction",
+        "notes": "",
+        "status": "filled"
+    },
+    "872f3023a8beeec6": {
+        "subject": "English",
+        "question": "Which of the following sentences is grammatically correct?\nA) The flock of birds were flying south for the winter.\nB) Neither the teacher nor the students was aware of the schedule change.\nC) The data, which was collected over three years, suggest a clear trend.\nD) Each of the contestants is required to submit a video introduction.",
+        "question_type": "analytical",
+        "answer": "D) Each of the contestants is required to submit\n a video introduction.",
+        "notes": "",
+        "status": "filled"
+    },
+    "45d79e713aaff407": {
+        "subject": "English",
+        "question": "Identify the primary literary device used in the sentence: \"The city's skyscrapers clawed at the stormy, thundering sky.\"\nA) Simile\nB) Personification\nC) Imagery\nD) Hyperbole",
+        "question_type": "analytical",
+        "answer": "Personification / Hyperbole",
+        "notes": "",
+        "status": "filled"
+    },
+    "4a6846a73e4f0b5e": {
+        "subject": "English",
+        "question": "The politician's speech was full of platitudes, offering little substance. What is the best synonym for \"platitudes\" in this context?\nA) Complex ideas\nB) Factual errors\nC) Meaningless clich\u00e9s\nD) Controversial opinions",
+        "question_type": "analytical",
+        "answer": "Meaningless cliches",
+        "notes": "",
+        "status": "filled"
+    },
+    "ebd937d50875d2e0": {
+        "subject": "English",
+        "question": "Provide a short but suitable example of a childhood story that represents the poetic device of an allegory.",
+        "question_type": "analytical",
+        "answer": "The hare and the tortoise.\nAllegory respresents an abstract message with a tangible\nstory",
+        "notes": "",
+        "status": "filled"
+    },
+    "170711be4c460c78": {
+        "subject": "English",
+        "question": "Extrapolate on the pretext of the poem \"Road Not Taken\" by Robert Frost on the basis of the situation of the world at the time it was written and the condition of the poet at that time",
+        "question_type": "analytical",
+        "answer": "This poem was written during the time of the\nWW1. The poet, at that time, was at a crucial\ntime of his life, where he was faced with two\nchoices that could decide his future. In his case,\nhe wrote this poem as an ode to a friend who had trouble\nmaking simple decisions. The poem reflects\non their journey on making choices. In the first two stanzas\nof the poem, he describes two choices as two paths\nat a crossroad. He explains how he tries to look\ndown as far as possible in both paths referring to\nhis attempt to forsee his future. However he\nexplains how this foresight is barred to only a\nspecific point after which everything is a mystery.\nHe also describes both paths, one of which is\nless trodden upon. This reflects in his life as writing\n(his current proffesion) was not a very popular\nchoice taken up at that time. In the next two stanzas,\nhe describes his life after he has made his decision\nto take the less popular path of writing. He seemed\nto know that after he made his decision, it would l\nead onto other ways which would make it impossible\nto come back to this one. In the end, he accepts\nthis and makes his way down his own path. He\nends the poem with a slightly ambiguous note by\nsaying \"I shall be telling this with a sigh\".This sigh\nmay symbolise many emotions such as contentment,\nregret, curiousity,etc. This interpretation has been\nleft to the reader to figure out. To wrap up, the poet\nsays that the choice was a life - changing one that\nmade all the difference to him.",
+        "notes": "",
+        "status": "filled"
+    },
+    "97c966fbbfded66d": {
+        "subject": "Knowledge Seeking",
+        "question": "What does the version range 5.9 - 5.11 tell us about software versioning conventions?",
+        "question_type": "factual",
+        "answer": "0.79",
+        "notes": "",
+        "status": "filled"
+    },
+    "2cd4271dffe02be0": {
+        "subject": "Knowledge Seeking",
+        "question": "Which city has the airport code MAS?",
+        "question_type": "factual",
+        "answer": "Momote Airport, Los Negros Island, Papua New Guinea",
+        "notes": "",
+        "status": "filled"
+    },
+    "4069d5538e6bac37": {
+        "subject": "Knowledge Seeking",
+        "question": "Who has hit the maximum number of 6s in T20Is?",
+        "question_type": "factual",
+        "answer": "Rohit Sharma - 205",
+        "notes": "",
+        "status": "filled"
+    },
+    "679983eedb24cbe8": {
+        "subject": "Video Generation",
+        "question": "Give me a video that starts with a close-up of a single raindrop hitting a leaf on the side of a road, then quickly transitions to a wide shot of the entire street at rush hour, very busy with cars and people. The mood should go from calm to chaotic.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "c56f085d526411ca": {
+        "subject": "Video Generation",
+        "question": "Create a video showing a small boy facing his angry parents. I want close-up shots of the boy's face showing fear, with the shadows of the tall parents, then a quick shot of the parents' hands clenching. To end pan to the parents' angry face suddenly shifting to a pleasant emotion. The background should go from a tense orangeish red to a calm blue. The lighting should be dramatic, with shadows.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "a815d2e049a2a3d6": {
+        "subject": "Video Generation",
+        "question": "Make an animation of someone using a flipbook. It should show a small stickman learning how to shoot an arrow. Show scenes of the man failing multiple times and finally hitting his mark. Remember the whole movie should be shown through a flipbook animation.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "1dce5975b0d644c5": {
+        "subject": "Video Generation",
+        "question": "Make a video for my science project about the water cycle. I need a sequence showing water evaporating from an ocean, forming clouds, then precipitating as rain over mountains, and finally flowing back into a river that leads to the ocean. Keep it natural and semi-realistic.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "15b4d0b089e0c29a": {
+        "subject": "Video Generation",
+        "question": "Make a video that could serve as a trailer for an upcoming interschool tournament. The tournament's overall co-curricular theme must be well shown. It should start with a close-up shot of a kid's closed eyes while sleeping. Suddenly the kid's eyes should fly open at the sound of an alarm. Pan to the phone on a bed-side table which should display a notification displaying \"Nexus D-Day!\". There should be a clicking motion on the notification which should play a video creatively displaying the tournament's name (Nexus) and the date (12 September 2025). Create the video playing on the phone with a scene for music, sports and acting and with a slide saying 'and many more'. The video after clicking the notification should have a neonish vibe. End the video with a scene that displays \"Do not miss it!\" and the ending scene with a save the date with all the details (name and date) mentioned above.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "0eb0f62ea7fa6bdc": {
+        "subject": "Image Generation",
+        "question": "Create an image for my English project cover. I need a very detailed, realistic image of a lone, ancient lighthouse standing on a rocky cliff during a stormy night. Make sure the light beam is cutting through the dark clouds. The style should be 'cinematic and mysterious'.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "5e058de321f69df8": {
+        "subject": "Image Generation",
+        "question": "Generate an image of my school mascot, a jumping horse with a maroon background. Put him in front of our school building, which has red bricks and an arch at the gate. It should have a sign saying 'National Public School'. The overall style should be semi-realistic.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "70affdafe13d7ddf": {
+        "subject": "Image Generation",
+        "question": "I need an abstract image representing 'confusion in anger.' Use swirling colors, maybe some overlapping shapes.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "923f63be8a1d1263": {
+        "subject": "Image Generation",
+        "question": "Generate a realistic image of an astronaut playing violin on the moon, with Earth visible in the background. Make the moon's surface look dusty/sandy and cratered.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "1036d0257c9dee27": {
+        "subject": "Image Generation",
+        "question": "Make me an image for my history presentation about ancient Rome. I want to show a busy market scene in a town square area, with lots of people, stalls selling goods like pottery and fruit, and some Roman architecture in the background. There should be a grand chariot going through the streets and people splitting to make way for it. Make it look like a historical painting, not a modern photo.",
+        "question_type": "generation",
+        "answer": "",
+        "notes": "",
+        "status": "filled"
+    },
+    "a57c641fea21ea62": {
+        "subject": "Music Understanding",
+        "question": "https://drive.google.com/file/d/1AxlTf0-PiDoysiQUZgBI_9T1YXyYQrsK/view?usp=sharing - listen to this 10 second audio clip and identify the instrument played in it.",
+        "question_type": "analytical",
+        "answer": "Cello",
+        "notes": "",
+        "status": "filled",
+        "filepath": "audio 1(instrument).mp3"
+    },
+    "4eb3217fa5f57d24": {
+        "subject": "Music Understanding",
+        "question": "https://drive.google.com/file/d/1xNYLRluOkadvFyu9wX3UPHVWi2iShLED/view?usp=sharing - listen to the 10 second audio clip and identify the ragam based on India Classical Music.",
+        "question_type": "analytical",
+        "answer": "Kharaharapriya",
+        "notes": "",
+        "status": "filled",
+        "filepath": "audio 2(vocal).mp3"
+    },
+    "54d48f4c2505c522": {
+        "subject": "Music Understanding",
+        "question": "Which two talas in Indian Carnatic Classical music have 10 aksharams in the alankaram sequence?",
+        "question_type": "analytical",
+        "answer": "Matya talam and Jhampa talam",
+        "notes": "",
+        "status": "filled"
+    },
+    "c0c33c642b2a5429": {
+        "subject": "Music Understanding",
+        "question": "Are percussion instruments pitched or not?",
+        "question_type": "analytical",
+        "answer": "Yes",
+        "notes": "",
+        "status": "filled"
+    },
+    "e7b70676e1e904e1": {
+        "subject": "Music Understanding",
+        "question": "How is silence incorporated into a musical arrangement and how does it affect the vibe of the piece?",
+        "question_type": "analytical",
+        "answer": "More silence, calmer vibe. Less silence, upbeat\nor intense",
+        "notes": "",
+        "status": "filled"
+    },
+    "c3c4bc079aad2c80": {
+        "subject": "Summarisation",
+        "question": "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2000.1385 - read this article and write a summary covering all the main points",
+        "question_type": "summarisation",
+        "answer": "",
+        "notes": "",
+        "status": "needs_fill"
+    },
+    "38545f95dc2daf6a": {
+        "subject": "Summarisation",
+        "question": "Refer to the NCERT Class 12 Computer Science textbook and write comprehensive notes covering all the main points in the chapter: Computer Networks - Protocols",
+        "question_type": "summarisation",
+        "answer": "Network Protocol\nNetwork protocols set the rules and standards that devices use to talk to each other over a network. Here are some important protocols: HTTP, FTP, PPP, SMTP, TCP/IP, POP3, HTTPS, TELNET, and VoIP.\n\n1. HTTP (Hypertext Transfer Protocol)\n\nUsed to send web pages and the files that go along with them across the Internet.\nPort: 80\nWhen you go to a website, HTTP is the method used to ask for and get web pages from servers.\nExample: Browsing a website like www.example.com.\nHTTP-Protocol\nHTTP Protocol\n2. FTP (File Transfer Protocol)\n\nThe job is to move files from one computer to another across a network.\nPort: 21 (default)\nUsage: It is used for uploading or downloading files from a server.\nUploading the files of a website to a server where the website will be hosted.\nFile-Transfer-Protocol-and-HTTPS-gif-2\nFTP Protocol\n3. PPP (Point-to-Point Protocol)\n\nFunction: Creates a direct link between two network devices, often used for dial-up connections.\nUsed to connect to the internet through a phone line or a serial connection.\nExample: Dial-up Internet connections in the past.\nPPP Protocol Suite\nPPP Protocol Suite\n4. SMTP (Simple Mail Transfer Protocol)\n\nFunction: Sends and routes email between servers.\nPort: 25\nUsage: Email servers use it to send messages to other servers or to individual users.\nSending an email from user@example.com to user2@example.com.\nSMTP-Gif\nSMTP Protocol\n5. TCP/IP (Transmission Control Protocol/Internet Protocol)\n\nFunction: A group of rules that control how information is sent across the Internet.\nUsage: Guarantees that data is sent reliably, in the right order, and without errors between devices.\nThe basic rules that are used for communication over the Internet.\nTCP/IP-Gif\nWorking of TCP/IP\n6. POP3 (Post Office Protocol version 3)\nThe job is to get emails from a server and send them to a client.\nPort: 110\nUsage: It is used to bring emails from a mail server to an email client.\nAccessing your email through an email client such as Outlook.\n7. HTTPS (Hypertext Transfer Protocol Secure)\nFunction: A secure type of HTTP that protects data by encrypting it to keep information private and safe.\nPort: 443\nUsed for sending messages safely across the Internet, like when you do online banking or shop online.\nExample: Accessing a secure website like https://www.example.com/\nHTTPS-gif\nHTTPS Protocol\n8. TELNET\nThe function offers a way to communicate with other systems from a command line remotely.\nPort: 23\nUsage: Lets users sign in and work with distant servers or machines.\nAccessing a remote server to perform command-line tasks.\n\n9. VoIP (Voice over Internet Protocol)\nFunction: Enables voice communication over the Internet.\nUsage: It is used to make voice calls through internet-based networks rather than using regular phone lines.\nExample: Services like Skype or Zoom can be used for making voice or video calls.",
+        "notes": "",
+        "status": "filled"
+    },
+    "1fcfa7e800b493e9": {
+        "subject": "Summarisation",
+        "question": "Refer to the NCERT Class 12 Physics textbook and write comprehensive notes covering all the main topics in the chapter: Electrostatic Potential and Capacitance",
+        "question_type": "summarisation",
+        "answer": "Electric potential and capacitance come from the idea of charge. The charge is found by looking at how many protons and electrons are in a material. A material that has more protons than electrons has a positive charge, and a material that has more electrons than protons has a negative charge.\n\nIf the numbers are the same, the material is neutral. Electric charges create forces that push or pull on each other.Charges that are opposite, like positive and negative, pull towards each other.Charges that are the same, like two positives or two negatives, push away from each other. Charge is measured in units called coulombs, written as C.Each proton has a positive charge of +1.602 \u00d7 10\u221219 C, and each electron has a negative charge of \u22121.602 \u00d7 10\u221219 C.\n\nElectrostatic Potential\nThe electrostatic potential at a point in an electric field is the amount of work required to bring a single positive charge from a very far away place to that specific point without making it speed up or slow down.\n\nThe unit used to measure electric potential is joules per coulomb, which shows how much work is done for each unit of charge. The J/C unit is usually referred to as a volt (V).\n\nFormula of electrostatic potential,\nV = W/q\n\nWhere,\n\nV = Electrostatic potential (Volts)\nW = Work done (Joules)\nq = Charge (Coulombs)\n\nElectrostatic Potential Due to a Point Charge\nThe potential at a distance 'r' from a charge 'Q' is given by.\n\n\ud835\udc7d = \ud835\udc8c\ud835\udc78/\ud835\udc5f\n\nWhere,\n\nk = Coulomb's constant (9\n\u00d7\n\u00d7 109 \ud835\udc75\ud835\udc8e2/\ud835\udc6a2)\nQ = Charge (Coulombs)\nr = Distance from charge (meters)\n\nCapacitance\nA capacitor is a tool that holds electric power. The capacitance of a capacitor is the amount of charge it can store compared to the voltage applied across it.\n\nThe unit used to measure capacitance is coulomb per volt (C/V), which shows how much charge is stored for each volt of electricity applied. The farad is the standard unit used to measure capacitance, and it is often used instead of the unit C/V.\n\nFormula of Capacitor is,\n\ud835\udc6a = \ud835\udc78/\ud835\udc7d\n\nWhere,\n\nC = Capacitance (Farads, F)\nQ = Charge stored (Coulombs)\nV = Potential difference (Volts)\n\nCapacitance of a Parallel Plate Capacitor\nThe capacitance of a capacitor that has two flat plates placed parallel to each other, with a distance 'd' between them and each having an area 'A', is calculated by using the formula.\n\nU =\n\u03b5\n\u03b5 0 \ud835\udc00 / D\n\nWhere,\n\n\\varepsilon0 = Permittivity of free space (8.85\n\u00d7\n\u00d7 10-12 F/m\nA = Plate area (square meters)\nd = Separation distance (meters)\n\nEnergy Stored in a Capacitor\nThe energy stored in a charged capacitor is given by.\n\nU = 1/2 CV2\n\nWhere,\n\nU = Energy stored (Joules)\nC = Capacitance (Farads)\nV = Voltage (Volts)",
+        "notes": "",
+        "status": "filled"
+    },
+    "32d78cde89e0f8e1": {
+        "subject": "Summarisation",
+        "question": "https://www.planetebook.com/free-ebooks/the-great-gatsby.pdf - go through this and write a summary on the book",
+        "question_type": "summarisation",
+        "answer": "Nick Carraway, a young man from Minnesota, moves to New York during the summer of 1922 to learn about working in the bond business. He rents a house in the West Egg part of Long Island, which is a rich but not very stylish area.This place is full of people who became wealthy recently, so they don't have old friends or social ties.These people tend to show off their money in flashy ways. Nick's neighbor in West Egg is a mysterious man named Jay Gatsby.He lives in a huge, old-fashioned mansion and hosts big, fancy parties every Saturday night.\n\nNick is different from the other people in West Egg\u2014he went to Yale and knows people in East Egg, which is a stylish part of Long Island where the wealthy, old-money families live. Nick goes to East Egg one evening to have dinner with his cousin Daisy Buchanan and her husband, Tom, who was once Nick's classmate at Yale. Daisy and Tom bring Nick meet Jordan Baker, a pretty and tough-minded young lady, and Nick starts a love relationship with her. Nick finds out a little about Daisy and Tom's marriage.Jordan tells him that Tom has a girlfriend named Myrtle Wilson.Myrtle lives in the valley of ashes, which is a dark, dirty area between West Egg and New York City. Soon after finding out this truth, Nick goes to New York City with Tom and Myrtle. At a messy, flashy party in the apartment Tom uses for the event, Myrtle starts to mock Tom about Daisy, and Tom reacts by breaking her nose.\n\nAs the summer goes on, Nick finally gets an invitation to one of Gatsby's famous parties. He meets Jordan Baker at the party and they meet Gatsby himself, a surprisingly young man who uses an English accent, has a great smile, and says \u201cold sport\u201d to everyone.Gatsby asks to talk to Jordan by himself, and through Jordan, Nick finds out more about his mysterious neighbor. Gatsby tells Jordan that he knew Daisy in Louisville back in 1917 and that he's really, really in love with her. He spends a lot of nights looking at the green light at the end of her dock, which is across the bay from his big house. Gatsby's fancy lifestyle and big parties are just his way of trying to win Daisy's attention. Gatsby now wants Nick to help him get together with Daisy again, but he's worried that Daisy might not want to see him if she finds out he still loves her. Nick asks Daisy to come to his home for tea, but he doesn't let her know that Gatsby will be there too. After a bit of an awkward get-together, Gatsby and Daisy start to feel connected again. Their love rekindled, they begin an affair.\nAfter a while, Tom starts to feel more and more doubtful about his wife's connection with Gatsby. At a lunch at the Buchanans' home, Gatsby looks at Daisy with such clear and intense love that Tom understands Gatsby is in love with her. Even though Tom is having an affair with someone else, he is really upset if he thinks his wife might be cheating on him. He makes the group drive into New York City, and then he meets Gatsby in a room at the Plaza Hotel. Tom says that he and Daisy have a past that Gatsby can't possibly understand, and he tells his wife that Gatsby is a criminal\u2014his money comes from selling illegal alcohol and other unlawful activities. Daisy realizes she really cares about Tom, and Tom treats her badly by sending her back to East Egg with Gatsby, trying to show that Gatsby can't do anything to hurt him.\n\nWhen Nick, Jordan, and Tom drive through the valley of ashes, they find out that Gatsby's car hit and killed Myrtle, who was Tom's girlfriend. They hurry back to Long Island, where Nick finds out from Gatsby that Daisy was the one driving the car that hit Myrtle, but Gatsby plans to take the blame for it. The next day, Tom tells Myrtle's husband, George, that Gatsby was the one who was driving the car. George thinks the driver who killed Myrtle was her lover, so he goes to Gatsby's house, finds him in the pool, and kills him. He then fatally shoots himself.\nNick holds a small funeral for Gatsby, breaks off his relationship with Jordan, and returns to the Midwest to get away from the people around Gatsby's life, and from the hollowness and bad morals he sees in the wealthy lifestyle on the East Coast. Nick thinks that just like Gatsby's dream of Daisy turned into something bad because of money and lies, the American dream of happiness and being your own person has now become just about getting rich. Even though Gatsby's ability to turn his dreams into real things is what makes him 'great''Nick thinks that the time of dreaming\u2014both Gatsby's dream and the American dream\u2014is finished.'\n",
+        "notes": "",
+        "status": "filled"
+    },
+    "c2e61f6d961221c0": {
+        "subject": "Summarisation",
+        "question": "https://dn790007.ca.archive.org/0/items/cu31924013243963/cu31924013243963.pdf - refer to this and create a summary on this book",
+        "question_type": "summarisation",
+        "answer": "Matthew and Marilla Cuthbert are brothers and sisters who live together on their family's old farm called Green Gables in the small town of Avonlea, which is on Prince Edward Island in Canada. Matthew is sixty years old, and because he is getting too old to do all the farm work by himself, the Cuthberts decide to adopt an orphan boy to assist him. This decision shocks the town gossip, Mrs. Rachel Lynde believes that Matthew and Marilla are not fit to take care of a child.\n\nMatthew is really scared of women.He goes to the train station and sees a girl instead of a boy.The orphanage sent an 11-year-old girl named Anne Shirley by mistake. Anne's lively talk and cheerful spirit charm Matthew, who shyly tells Marilla that he wants to keep her. Marilla starts off unsure, but after trying Anne out for a while, she decides to let her stay.\n\nAnne is a cheerful and chatty girl even though she lives a poor life and doesn't have any family. Even though she doesn't have much social skills or formal education, she has a very rich and imaginative mind, and she's always positive and kind-hearted. Anne follows her feelings instead of following rules about how a lady should act, so she ends up not meeting the usual standards of proper behavior for a lady. She goes to church for the first time wearing a bunch of wildflowers in a wreath, and she shouts at Mrs. Rachel was making fun of her red hair. Anne puts a lot of effort into pleasing Marilla and following her social rules, but she often messes up.She uses liniment instead of vanilla in a cake, lets a mouse die in the plum-pudding sauce, and tries to pray before bed for the first time, saying a sincere but silly prayer.\n\n\nAnne didn't have any real friends before she moved to Green Gables, so she made up imaginary friends to play with. In Avonlea, she meets Diana Barry, a neighbor who quickly becomes her close friend. One afternoon, Anne asks Diana to join her for tea and accidentally serves her red currant wine instead of the nonalcoholic raspberry cordial. Diana comes home drunk, and Diana\u2019s mom thinks Anne made her drunk on purpose, so she tells the girls not to talk to each other anymore. The hard time of being apart lasts until Anne helps Diana's sister, who is very ill with croup, which makes Mrs. Barry to forgive her.\nAt school, Anne has a disagreement with a good-looking, clever boy named Gilbert Blythe. When they first meet, Gilbert teases Anne by calling her Carrots and pulling her red braid. Anne is very upset about her red hair, and Gilbert's jokes really bother her. She yells at him and hits him with a slate on the head. This event starts a competition between Anne and Gilbert, the two brightest students, that continues throughout the whole book.\n\nAs Anne gets older, she starts to lose some of her playful, dramatic, and romantic ways from when she was a child, and she begins to focus more on her studies with energy and enthusiasm. A kind teacher named Miss Stacy notices Anne's smartness and asks her to join a group of students who are getting ready for the entrance test at Queen\u2019s Academy. Her long-time competition with Gilbert Blythe turns into a friendly and close rivalry when, after four years of not speaking to each other, they both end up at Queen\u2019s Academy. Trying hard to make Matthew and Marilla proud, Anne focuses completely on her studies and manages to win the famous Avery Scholarship.This scholarship gives her enough money to go to college for four years in the fall.\n\nAnne is excited about her future and heads back to Green Gables. Matthew, who has had issues with his heart, passes away due to a heart attack. When Anne finds out that Marilla might go blind, she chooses to stay at Green Gables and teach nearby so she can take care of Marilla, even though she had planned to get a four-year degree. Gilbert finds out about her choice and decides to quit his job as the teacher at Avonlea school so Anne can take his position and live closer to Marilla. After five years of competing against each other, Gilbert and Anne become good friends. Even though her options have become much fewer, Anne stays hopeful and looks forward to her future with a happy attitude.\n",
+        "notes": "",
+        "status": "filled"
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "calculation": {
+    "description": "Physics, Chemistry, Maths — exact or near-exact numerical/algebraic answer required.",
+    "pass_criteria": "Final answer matches ground truth (allow minor rounding). Any explanation shown must use valid reasoning.",
+    "false_positive_criteria": "Final answer matches but explanation uses wrong method, fake theorems, or invalid steps.",
+    "silent_failure_criteria": "Wrong final answer with little or no explanation of where logic broke down.",
+    "verifiable_hallucination_criteria": "Wrong answer AND explanation contains invented formulas, fake constants, or fabricated rules."
+  },
+  "factual": {
+    "description": "Knowledge Seeking — a single correct fact is expected.",
+    "pass_criteria": "Correct fact stated. Brief explanation (if given) is accurate.",
+    "false_positive_criteria": "Correct answer stated but justification contains false supporting facts.",
+    "silent_failure_criteria": "Wrong answer with no explanation.",
+    "verifiable_hallucination_criteria": "Wrong answer with fabricated supporting facts presented as real."
+  },
+  "analytical": {
+    "description": "CS, English, Music Understanding — requires correct identification, reasoning, or analysis.",
+    "pass_criteria": "Core answer is correct and reasoning is logically sound and accurate.",
+    "false_positive_criteria": "Correct answer reached but via flawed, circular, or fabricated reasoning.",
+    "silent_failure_criteria": "Wrong answer with no supporting reasoning to reveal where it went wrong.",
+    "verifiable_hallucination_criteria": "Wrong answer supported by invented rules, fake literary devices, or fabricated musical theory."
+  },
+  "summarisation": {
+    "description": "Summarisation — model is given a URL and must summarise the content.",
+    "scoring_dimensions": [
+      {
+        "name": "key_point_coverage",
+        "weight": 0.6,
+        "description": "What fraction of the key points from the golden summary appear in the model's summary?"
+      },
+      {
+        "name": "conciseness",
+        "weight": 0.4,
+        "description": "Is the summary appropriately concise? Penalise padding, repetition, or excessive length relative to the golden summary."
+      }
+    ],
+    "pass_threshold": 0.7,
+    "pass_criteria": "Coverage >= 70% of golden key points AND conciseness is reasonable.",
+    "false_positive_criteria": "Appears complete but misrepresents key findings or fabricates content not in the source.",
+    "silent_failure_criteria": "Incomplete summary without enough content to evaluate coverage.",
+    "verifiable_hallucination_criteria": "Summary contains specific facts, statistics, or claims not present in or contradicted by the source."
+  },
+  "generation": {
+    "description": "Video Generation, Image Generation — model is asked to produce media.",
+    "pass_criteria": "Model produces the requested media or a credible description/prompt that would yield it.",
+    "false_positive_criteria": "N/A for generation tasks.",
+    "silent_failure_criteria": "Model produces unrelated or clearly wrong output.",
+    "verifiable_hallucination_criteria": "N/A for generation tasks.",
+    "refusal_criteria": "Model explicitly states it cannot generate this media type."
+  }
+}
